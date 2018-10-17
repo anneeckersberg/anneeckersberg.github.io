@@ -1,0 +1,44 @@
+html {
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.header {
+    font-size: 1rem;
+    line-height: 0.2rem;
+}
+
+.list-container {
+    display: relative;
+    width: 100%;
+    height: auto;
+    margin: 10% 0 20% -2%;
+}
+
+.list-container li, a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    color: blue;
+}
+
+.list-container a:hover {
+    color: red;
+}
+
+.title {
+    color: blue;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-container li, a, .title { font-size: 1.8rem; line-height: 2rem; }
+}
+
+img {
+    margin-bottom: 1%;
+}
+
