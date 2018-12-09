@@ -17,7 +17,7 @@ body {
     margin: 10% 0 20% 0%;
 }
 
-.list-container li, a {
+.list-container li a, a {
     list-style: none;
     text-decoration: underline blue;
     font-size: 3.5rem;
@@ -26,7 +26,7 @@ body {
 }
 
 .list-container a:hover {
-    text-decoration-color: red;
+    text-decoration: underline red;
 }
 
 .title {
@@ -38,7 +38,8 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .list-container li a { font-size: 2rem; line-height: 1.8rem; }
+    .list-container li, a { font-size: 2rem; line-height: 1.8rem; list-style: none; text-decoration: underline blue; }
+    .list-container a:hover { text-decoration: underline red; }
     .header { font-size: 1rem; }
     .title { font-size: 2rem; line-height: 1.8rem; }
 }
