@@ -17,8 +17,11 @@ body {
     margin: 10% 0 20% 0%;
 }
 
-.list-container li a, a {
+ul {
     list-style: none;
+}
+
+.list-container li a, a {
     text-decoration: underline blue;
     font-size: 3.5rem;
     line-height: 3.5rem;
