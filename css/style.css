@@ -1,3 +1,5 @@
+/* common content - index.html, buttons */
+
 html {
     font-size: 14px;
 }
@@ -17,8 +19,11 @@ body {
     margin: 10% 0 20% 0%;
 }
 
-.list-container li a, a {
+ul {
     list-style: none;
+}
+
+.list-container li a, a {
     text-decoration: underline blue;
     font-size: 3.5rem;
     line-height: 3.5rem;
@@ -43,6 +48,12 @@ body {
     line-height: 3.5rem;
     margin-top: 6%;
     margin-bottom: 5%;
+}
+
+.work-text {
+    text-align: left;
+    margin-left: 1%;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
@@ -82,4 +93,10 @@ img {
 .background-black {
     background-color: black;
 }
+
+/* workpages content */
+
+
+
+
 
